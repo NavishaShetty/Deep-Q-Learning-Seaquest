@@ -32,7 +32,7 @@ def train_baseline():
     print("BASELINE DQN TRAINING - SEAQUEST")
     print("="*60)
     
-    # Hyperparameters (as specified in assignment)
+    # Hyperparameters
     TOTAL_EPISODES = 5000
     TOTAL_TEST_EPISODES = 100
     MAX_STEPS = 99
