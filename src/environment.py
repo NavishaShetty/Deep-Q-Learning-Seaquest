@@ -8,7 +8,7 @@ ATTRIBUTION:
 - Uses Gymnasium API (https://gymnasium.farama.org/)
 - Atari Learning Environment (ALE) wrapper
 """
-
+import ale_py
 import gymnasium as gym
 import numpy as np
 
