@@ -141,7 +141,7 @@ def run_bellman_experiments():
             alpha=alpha,
             gamma=gamma,
             experiment_name=name,
-            num_episodes=5000,
+            num_episodes=2000,
             max_steps=99
         )
         
