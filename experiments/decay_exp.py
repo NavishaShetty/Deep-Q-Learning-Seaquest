@@ -23,7 +23,7 @@ from src.environment import AtariEnvironment
 from src.utils import MetricsTracker, preprocess_state
 
 
-def train_with_decay_params(decay_rate, initial_epsilon, experiment_name, num_episodes=5000, max_steps=99):
+def train_with_decay_params(decay_rate, initial_epsilon, experiment_name, num_episodes=2000, max_steps=99):
     """
     Train agent with specific exploration parameters.
     
@@ -143,7 +143,7 @@ def run_decay_experiments():
             decay_rate=decay_rate,
             initial_epsilon=epsilon,
             experiment_name=name,
-            num_episodes=5000,
+            num_episodes=2000,
             max_steps=99
         )
         
