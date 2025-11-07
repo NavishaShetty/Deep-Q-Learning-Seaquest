@@ -38,9 +38,8 @@ A Deep Q-Network (DQN) implementation for the Atari Galaxian environment, explor
 │           └──overall_comparison.png            # Combined results comparison
 │
 ├── docs/
-│    ├── baseline.py                       # Detailed Documentation
-│    ├── bellman_exp.py                    # Results Summary
-│    └── run_all.py                        # Attribution and Licensing information 
+│    ├── Documentation.pdf                       # Detailed Documentation
+│    └── Results_Summary.md                      # Results Summary 
 └── README.md                              # This file
 ```
 
